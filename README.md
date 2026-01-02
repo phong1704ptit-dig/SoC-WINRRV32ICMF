@@ -4,17 +4,18 @@ Dự án SoC tập trung vào tối ưu hiệu suất mục tiêu để chạy m
 - Tập lệnh mở rộng M: Bổ xung thêm các lệnh nhân, chia, chia dư. Trong dự án này ALU sử dụng thuật toán radix-4 cho cả phép nhân và phép chia. Nhân sẽ mất 9 chu kì và chia mất 20 chu kì.
 - Tập lệnh mở rộng C: Bổ xung thêm các lệnh 16 bit làm giảm độ dài mã chương trình tức giảm bộ nhớ lệnh cần sử dụng.
 - Tập lệnh mở rộng F: Bổ xung thêm các lệnh thao tác với số thực độ chính xác đơn. Tập này được bộ đồng xử lý FPU thực thi theo chuẩn IEEE754.
+SoC đầy đủ chức năng với bộ nhớ lệnh 190KB, bộ nhớ dữ liệu 120KB, Flash 10KB có thể hoạt động ở mức tần số 70MHz. Đối với các bộ nhớ đều 2KB hoạt động ở mức tần số 94MHz. Có thể thấy giới hạn rất lớn khi sử dụng nhiều block RAM và khó routing khi sử dụng nhiều tài nguyên. Đánh giá bằng báo cáo từ vivado với chiến lược tối ưu hiệu suất và FPGA CX7Z020clg400.
 ## 1. CPU 
 - Được thiết kế tối ưu hiệu suất với thông lượng của tất cả các lệnh đều là 1 lệnh mỗi chu kì ngoại trừ lệnh JALR với thông lượng 0.25 lệnh mỗi chu kì. CPU áp dụng kĩ thuật đường ống 5 chu kì cơ bản IF-ID-EX-MEM-WB.
 - Hỗ trợ dự đoán rẽ nhánh với bộ dự đoán rẽ nhánh 2 bit kết hợp với bảng lịch sử rẽ nhánh. Bộ dự đoán rẽ nhánh hoạt động hiệu quả đối với chương trình C/C++ mang tính lặp lại như hàm while, for, etc tuy nhiên hoạt động kém hiệu quả đối với loại chương trình mang tính lúc nhảy lúc không như zich zac. Đối với mô hình AI trong dự án tỷ lệ dữ đoán rẽ nhánh đúng rơi vào khoảng từ 98% tới 99% do chương trình AI có tính lặp lại nhiều lần cho mỗi pixel ảnh. Dự đoán rẽ nhánh sai sẽ phải trả giá bằng 2 chu kì tần số.
 <p align="center">
-  <img src="Image/Nguyenlydudoan.png" alt="SoC Architecture" width="800">
+  <img src="Image/Nguyenlydudoan.png" alt="SoC Architecture" width="500">
   <br>
   <i>Hình 1: Nguyên lý dự đoán của bộ dự đoán rẽ nhánh</i>
 </p>
 - Hỗ trợ bộ quản lý ngắt giúp chương trình điều khiển được ngắt của hệ thống bao gồm ngắt ngoài, ngoại lệ của từng chế độ. Tuy nhiên bộ xử lý chỉ hỗ trợ chế độ máy tức là chế độ có quyền cao nhất.
 <p align="center">
-  <img src="Image/DuongongCPU.png" alt="SoC Architecture" width="800">
+  <img src="Image/DuongongCPU.png" alt="SoC Architecture" width="500">
   <br>
   <i>Hình 2: Đường ống CPU</i>
 </p>
@@ -25,7 +26,7 @@ Dự án SoC tập trung vào tối ưu hiệu suất mục tiêu để chạy m
 - Đươc thiết kế với 3 chế độ hoạt động bao gồm ModePipeline, ModeFSM và ModeCom. ModeCom thực thi các lệnh cần trao đổi dữ liệu với CPU thực thi ngay lật tức theo kiểu logic tổ hợp, ModeFSM thự thi các lệnh như FDIV, FSQRT là các lệnh cần thời gian tính toán lên tới 20 chu kì mỗi lệnh vì vậy không hợp ghép vào đường ống mà sẽ được thực thi bằng máy trạng thái. ModePipeline thực thi hầu hết các lệnh tính toán của FPU áp dụng kĩ thuật đường ống 7 chu kì Unpack-Align-Ope1-Ope2-Nor1-Nor2-R&WB.
 Thuật toán nhân sử dụng là Radix4 song song theo kiểu số thực, thuật toán chia sử dụng là Newton-Raphson, thuật toán căn bậc 2 sử dụng là dự đoán digit-by-digit theo kiểu số thực, etc. Tất cả các lệnh của FPU đề có độ chính xác và tuân theo tiêu chuẩn IEEE754.
 <p align="center">
-  <img src="Image/ModeFPU.png" alt="SoC Architecture" width="800">
+  <img src="Image/ModeFPU.png" alt="SoC Architecture" width="600">
   <br>
   <i>Hình 3: Nguyên tắc xử lý lệnh của FPU</i>
 </p>
@@ -44,7 +45,7 @@ Thuật toán nhân sử dụng là Radix4 song song theo kiểu số thực, th
   <i>Hình 4: Sơ đồ kiến trúc tổng quan của SoC WINRRV32ICMF</i>
 </p>
 <p align="center">
-  <img src="Image/phanvungbonho.png" alt="SoC Architecture" width="800">
+  <img src="Image/phanvungbonho.png" alt="SoC Architecture" width="600">
   <br>
   <i>Hình 5: Phân vùng bộ nhớ</i>
 </p>
@@ -52,9 +53,11 @@ Thuật toán nhân sử dụng là Radix4 song song theo kiểu số thực, th
 - Bao bồm firmware có sẵn makefile, mã chương trình C/C++, thư viện thao các với ngoại vi, etc.
 - Mã nguồn verilog mô tả tất cả ngoại vi, CPU, FPU, ALU, etc.
 <p align="center">
-  <img src="Image/MohinhPhanloai.png" alt="SoC Architecture" width="800">
+  <img src="Image/MohinhPhanloai.png" alt="SoC Architecture" width="500">
   <br>
   <i>Hình 1: Mô hình phân loại sử dụng mô hình SoC</i>
 </p>
 - Mô hình phân loại nhận pixel ảnh từ ESP32CAM bằng UART + ngắt. Đọc cảm biến khoảng cách HCSR-04 bằng GPIO và systick, điều khiển băng truyền, led bằng GPIO. Điều khiển Servo bằng chức năng PWM của TIMER, hiển thị kết quả phân loại lên LCD bằng I2C.
-
+## 6. Tài nguyên sử dụng của hệ thống SoC
+- 12K logic unit, 7KFF với 2KB bộ nhớ lệnh và dữ liệu. 17K logic unit, 9KFF với đầy đủ dung lượng bộ nhớ - 187KB bộ nhớ lệnh, 120KB bộ nhớ dữ liệu, 10KB FLASH.
+- Chủ yếu tốn tài nguyên ở FPU với 9500 logic unit và 3k8FF khi đầy đủ dung lượng các bộ nhớ.
