@@ -1,0 +1,270 @@
+D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test2.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_module
+
+Top level modules:
+	test_module
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Top.v {1 {vlog -work workfn -stats=none {D:\Gowin\Gowin_V1.9.10.03_Education_x64\IDE\bin\Documents\RISC_V\src\Top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Top
+
+Top level modules:
+	Top
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/femtorv32_quark.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/femtorv32_quark.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FemtoRV32
+
+Top level modules:
+	FemtoRV32
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Timer_base.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Timer_base.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Timer_base
+
+Top level modules:
+	Timer_base
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_SPI.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_SPI.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module regs_SPI
+
+Top level modules:
+	regs_SPI
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_ip.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_ip.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module spi_ip
+
+Top level modules:
+	spi_ip
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_PWM.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_PWM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module regs_PWM
+
+Top level modules:
+	regs_PWM
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test_i2c.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test_i2c.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_test
+
+Top level modules:
+	top_test
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/TIMBASE_ip.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/TIMBASE_ip.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module timbase_ip
+
+Top level modules:
+	timbase_ip
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_Slave.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_Slave.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module SPI_Slave
+
+Top level modules:
+	SPI_Slave
+
+} {} {}} {C:/Users/PHONG/OneDrive - ptit.edu.vn/Desktop/Project_I2C/PROJECT_/top_tb.v} {1 {vlog -work workfn -stats=none {C:\Users\PHONG\OneDrive - ptit.edu.vn\Desktop\Project_I2C\PROJECT_\top_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_Top
+
+Top level modules:
+	tb_Top
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_ip.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_ip.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module I2C_ip
+
+Top level modules:
+	I2C_ip
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_I2C.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_I2C.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module regs_I2C
+
+Top level modules:
+	regs_I2C
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_Master.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_Master.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module SPI_Master
+
+Top level modules:
+	SPI_Master
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/uart_tx.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/uart_tx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_tx
+
+Top level modules:
+	uart_tx
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_GPIO.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_GPIO.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module regs_GPIO
+
+Top level modules:
+	regs_GPIO
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/TPWM_ip.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/TPWM_ip.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TPWM_ip
+
+Top level modules:
+	TPWM_ip
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/CLOCK_TIMBASE.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/CLOCK_TIMBASE.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clk_timbase
+
+Top level modules:
+	clk_timbase
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/TIMBASE_mapping.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/TIMBASE_mapping.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TIMBASE_mapping
+
+Top level modules:
+	TIMBASE_mapping
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_SCLK.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_SCLK.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module SCLK_base
+
+Top level modules:
+	SCLK_base
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_TIME_BASE.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_TIME_BASE.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module regs_TIME_BASE
+
+Top level modules:
+	regs_TIME_BASE
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/CLOCK_TPWM.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/CLOCK_TPWM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clk_timpwm
+
+Top level modules:
+	clk_timpwm
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/clk1500k.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/clk1500k.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clk_1500k
+
+Top level modules:
+	clk_1500k
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Timer_PWM.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Timer_PWM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Timer_PWM
+
+Top level modules:
+	Timer_PWM
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/uart_ip.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/uart_ip.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_ip
+
+Top level modules:
+	uart_ip
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_uart.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_uart.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module regs_UART
+
+Top level modules:
+	regs_UART
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_MR.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_MR.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module I2C_Master_Rx
+
+Top level modules:
+	I2C_Master_Rx
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test_uartrx.v {2 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test_uartrx.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_uart_led
+** Warning: D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test_uartrx.v(28): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	test_uart_led
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/UART_bootloader.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/UART_bootloader.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_rx
+
+Top level modules:
+	uart_rx
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_MT.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_MT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module I2C_Master_Tx
+
+Top level modules:
+	I2C_Master_Tx
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/device_select.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/device_select.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module device_select
+
+Top level modules:
+	device_select
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Convert_StoB.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Convert_StoB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ascii_hex_to_bin
+
+Top level modules:
+	ascii_hex_to_bin
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/picorv32.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/picorv32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module picorv32
+-- Compiling module picorv32_regs
+-- Compiling module picorv32_pcpi_mul
+-- Compiling module picorv32_pcpi_fast_mul
+-- Compiling module picorv32_pcpi_div
+-- Compiling module picorv32_axi
+-- Compiling module picorv32_axi_adapter
+-- Compiling module picorv32_wb
+
+Top level modules:
+	picorv32_regs
+	picorv32_axi
+	picorv32_wb
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/UART_TRX.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/UART_TRX.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module UART
+
+Top level modules:
+	UART
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/CLOCK_I2C.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/CLOCK_I2C.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clk_i2c
+
+Top level modules:
+	clk_i2c
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Memory.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Memory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Memory
+
+Top level modules:
+	Memory
+
+} {} {}} D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_mapping.v {1 {vlog -work workfn -stats=none D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_mapping.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module I2C_mapping
+
+Top level modules:
+	I2C_mapping
+
+} {} {}}

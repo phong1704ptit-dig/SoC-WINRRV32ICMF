@@ -1,0 +1,334 @@
+regmap:
+  - name: Tim_config
+    description: Timer configuration register
+    address: '0x00'
+    bitfields:
+      - name: EN
+        description: Enable timer
+        lsb: 0
+        width: 1
+        access: wo
+        hardware: o
+        reset: 0
+        enums: []
+      - name: AR
+        description: Auto reload when reaching period
+        lsb: 1
+        width: 1
+        access: wo
+        hardware: o
+        reset: 1
+        enums: []
+      - name: DIR
+        description: Count direction (0 = up, 1 = down)
+        lsb: 4
+        width: 1
+        access: wo
+        hardware: o
+        reset: 0
+        enums: []
+      - name: UD
+        description: Update counter with load value
+        lsb: 5
+        width: 1
+        access: wo
+        hardware: o
+        reset: 0
+        enums: []
+
+  - name: Tim_prescaler
+    description: Prescaler register (divides input clock)
+    address: '0x04'
+    bitfields:
+      - name: DIV
+        description: Clock divider value
+        lsb: 0
+        width: 32
+        access: wo
+        hardware: o
+        reset: 27
+        enums: []
+
+  - name: Tim_period
+    description: Timer period register
+    address: '0x08'
+    bitfields:
+      - name: PER
+        description: Counter max value
+        lsb: 0
+        width: 32
+        access: wo
+        hardware: o
+        reset: 65535
+        enums: []
+
+  - name: Tim_counter
+    description: Current counter value
+    address: '0x0C'
+    bitfields:
+      - name: CNT
+        description: Counter current count
+        lsb: 0
+        width: 32
+        access: ro
+        hardware: i
+        reset: 0
+        enums: []
+
+  - name: Tim_status
+    description: Timer status register
+    address: '0x10'
+    bitfields:
+      - name: OF
+        description: Overflow flag
+        lsb: 0
+        width: 1
+        access: ro
+        hardware: i
+        reset: 0
+        enums: []
+      - name: OP
+        description: Over period flag
+        lsb: 1
+        width: 1
+        access: ro
+        hardware: i
+        reset: 0
+        enums: []
+      - name: ERR
+        description: Error flag
+        lsb: 2
+        width: 1
+        access: ro
+        hardware: i
+        reset: 0
+        enums: []
+      - name: LD
+        description: Load done flag
+        lsb: 3
+        width: 1
+        access: ro
+        hardware: i
+        reset: 0
+        enums: []
+
+  - name: Tim_load
+    description: Value to load into counter
+    address: '0x14'
+    bitfields:
+      - name: LOAD
+        description: Counter load value
+        lsb: 0
+        width: 32
+        access: wo
+        hardware: o
+        reset: 0
+        enums: []
+
+  - name: TPWM_config
+    description: PWM configuration register
+    address: '0x18'
+    bitfields:
+      - name: EN
+        description: Enable PWM/CAPTURE operation
+        reset: 0
+        width: 1
+        lsb: 0
+        access: rw
+        hardware: o
+        enums: []
+      - name: SEL1
+        description: Output selection for PWM1
+        reset: 0
+        width: 2
+        lsb: 1
+        access: rw
+        hardware: o
+        enums: []
+      - name: SEL2
+        description: Output selection for PWM2
+        reset: 0
+        width: 2
+        lsb: 3
+        access: rw
+        hardware: o
+        enums: []
+      - name: MODE
+        description: mode CAPTURE or PWM
+        reset: 0
+        width: 1
+        lsb: 5
+        access: rw
+        hardware: o
+        enums: []
+      - name: SEL3
+        description: Output selection for PWM3
+        reset: 0
+        width: 2
+        lsb: 7
+        access: rw
+        hardware: o
+        enums: []
+      - name: SEL4
+        description: Output selection for PWM4
+        reset: 0
+        width: 2
+        lsb: 9
+        access: rw
+        hardware: o
+        enums: []
+      - name: NUM
+        description: Number of PWM signals selected
+        reset: 0
+        width: 3
+        lsb: 11
+        access: rw
+        hardware: o
+        enums: []
+      - name: POL
+        description: Polarity of the PWM signal
+        reset: 0
+        width: 1
+        lsb: 14
+        access: rw
+        hardware: o
+        enums: []
+
+  - name: TPWM_prescaler
+    description: PWM clock divider
+    address: '0x1C'
+    bitfields:
+      - name: DIV
+        description: Clock divider value for PWM
+        reset: 27
+        width: 32
+        lsb: 0
+        access: rw
+        hardware: o
+        enums: []
+
+  - name: TPWM_period1
+    description: PWM1 and PWM2 period register
+    address: '0x20'
+    bitfields:
+      - name: PER1
+        description: Period value for PWM1
+        reset: 65535
+        width: 16
+        lsb: 0
+        access: rw
+        hardware: o
+        enums: []
+      - name: PER2
+        description: Period value for PWM2
+        reset: 65535
+        width: 16
+        lsb: 16
+        access: rw
+        hardware: o
+        enums: []
+
+  - name: TPWM_period2
+    description: PWM3 and PWM4 period register
+    address: '0x24'
+    bitfields:
+      - name: PER3
+        description: Period value for PWM3
+        reset: 65535
+        width: 16
+        lsb: 0
+        access: rw
+        hardware: o
+        enums: []
+      - name: PER4
+        description: Period value for PWM4
+        reset: 65535
+        width: 16
+        lsb: 16
+        access: rw
+        hardware: o
+        enums: []
+
+  - name: TPWM_compare1
+    description: Compare values for PWM1 and PWM2
+    address: '0x28'
+    bitfields:
+      - name: CP1
+        description: Compare value for PWM1
+        reset: 65535
+        width: 16
+        lsb: 0
+        access: rw
+        hardware: o
+        enums: []
+      - name: CP2
+        description: Compare value for PWM2
+        reset: 65535
+        width: 16
+        lsb: 16
+        access: rw
+        hardware: o
+        enums: []
+
+  - name: TPWM_compare2
+    description: Compare values for PWM3 and PWM4
+    address: '0x2C'
+    bitfields:
+      - name: CP3
+        description: Compare value for PWM3
+        reset: 65535
+        width: 16
+        lsb: 0
+        access: rw
+        hardware: o
+        enums: []
+      - name: CP4
+        description: Compare value for PWM4
+        reset: 65535
+        width: 16
+        lsb: 16
+        access: rw
+        hardware: o
+        enums: []
+
+  - name: TPWM_counter1
+    description: PWM counters for PWM1 and PWM2
+    address: '0x30'
+    bitfields:
+      - name: CNT1
+        description: Current counter value for PWM1
+        reset: 0
+        width: 16
+        lsb: 0
+        access: ro
+        hardware: i
+        enums: []
+      - name: CNT2
+        description: Current counter value for PWM2
+        reset: 0
+        width: 16
+        lsb: 16
+        access: ro
+        hardware: i
+        enums: []
+
+  - name: TPWM_counter2
+    description: PWM counters for PWM3 and PWM4
+    address: '0x34'
+    bitfields:
+      - name: CNT3
+        description: Current counter value for PWM3
+        reset: 0
+        width: 16
+        lsb: 0
+        access: ro
+        hardware: i
+        enums: []
+      - name: CNT4
+        description: Current counter value for PWM4
+        reset: 0
+        width: 16
+        lsb: 16
+        access: ro
+        hardware: i
+        enums: []

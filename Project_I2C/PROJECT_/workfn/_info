@@ -1,0 +1,956 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISV_V_BH1750/RISC_VBH1750_ms
+vascii_hex_to_bin
+Z0 !s110 1749285644
+!i10b 1
+!s100 kGY_nHWd^370k[2jV=bV:3
+I_0AK3:[b833Nl50<ZdV^@2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/PHONG/OneDrive - ptit.edu.vn/Desktop/Project_I2C/PROJECT_
+w1746436945
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Convert_StoB.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Convert_StoB.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1749285644.000000
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Convert_StoB.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Convert_StoB.v|
+!i113 1
+Z5 o-work workfn
+Z6 tCvgOpt 0
+vclk_1500k
+Z7 !s110 1749285645
+!i10b 1
+!s100 ]9XbhJ_d7A`F=ncREKRYH2
+I?G5<KRn;Zij0kTmLGJ`@;3
+R1
+R2
+w1745043368
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/clk1500k.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/clk1500k.v
+L0 6
+R3
+r1
+!s85 0
+31
+Z8 !s108 1749285645.000000
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/clk1500k.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/clk1500k.v|
+!i113 1
+R5
+R6
+vclk_i2c
+Z9 !s110 1749285643
+!i10b 1
+!s100 ^9?>a6=@>?@Z9CiL<Ka0P3
+I[ZDCTXSAA<Ud?J6Z:KogX0
+R1
+R2
+w1746962822
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/CLOCK_I2C.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/CLOCK_I2C.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z10 !s108 1749285643.000000
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/CLOCK_I2C.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/CLOCK_I2C.v|
+!i113 1
+R5
+R6
+vclk_timbase
+R9
+!i10b 1
+!s100 S[bmV=73>FI]YW93XC35D0
+IYlj3bPdW=l`YGTMT[HHlc2
+R1
+R2
+w1746962763
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/CLOCK_TIMBASE.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/CLOCK_TIMBASE.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/CLOCK_TIMBASE.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/CLOCK_TIMBASE.v|
+!i113 1
+R5
+R6
+vclk_timpwm
+R9
+!i10b 1
+!s100 5VP6L2V<6>MN9caNd8n8`1
+I08jSHU1fFImZN]bM?QhjX2
+R1
+R2
+w1746962735
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/CLOCK_TPWM.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/CLOCK_TPWM.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/CLOCK_TPWM.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/CLOCK_TPWM.v|
+!i113 1
+R5
+R6
+vdevice_select
+R9
+!i10b 1
+!s100 ;9zHI08[JkNi`8A5eEFk<3
+IUhPKS0T;[_0oaEc?J8Ob<2
+R1
+R2
+w1746853668
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/device_select.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/device_select.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/device_select.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/device_select.v|
+!i113 1
+R5
+R6
+vFemtoRV32
+R0
+!i10b 1
+!s100 HC4F:8_C82eGCHFb7Fk<V0
+IoO`=2c6LKlKoJiQW_ZkOX3
+R1
+R2
+w1749284591
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/femtorv32_quark.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/femtorv32_quark.v
+L0 39
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/femtorv32_quark.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/femtorv32_quark.v|
+!i113 1
+R5
+R6
+n@femto@r@v32
+vI2C_ip
+R0
+!i10b 1
+!s100 N?;;fP@XWfN<MOT?Q0V452
+IQ13ZkbfJfSVVX;L1k=P=<0
+R1
+R2
+w1745509557
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_ip.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_ip.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_ip.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_ip.v|
+!i113 1
+R5
+R6
+n@i2@c_ip
+vI2C_mapping
+R7
+!i10b 1
+!s100 mkdTjL[WJL@md[L_@M:GX2
+IM6Emj3aacelOcl7DdDKgR2
+R1
+R2
+w1745315496
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_mapping.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_mapping.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_mapping.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_mapping.v|
+!i113 1
+R5
+R6
+n@i2@c_mapping
+vI2C_Master_Rx
+R0
+!i10b 1
+!s100 KfZ6;S3==c5Zgk5Q11]AK1
+I6fLUFj7ekk6K26e0YoDS]0
+R1
+R2
+w1745509526
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_MR.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_MR.v
+L0 9
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_MR.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_MR.v|
+!i113 1
+R5
+R6
+n@i2@c_@master_@rx
+vI2C_Master_Tx
+R0
+!i10b 1
+!s100 RkO=5E]U;5gfFbCo2R@;<2
+INORni5`?Sz`e82MCPzi0H0
+R1
+R2
+w1745509520
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_MT.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_MT.v
+L0 9
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_MT.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/I2C_MT.v|
+!i113 1
+R5
+R6
+n@i2@c_@master_@tx
+vMemory
+R9
+!i10b 1
+!s100 FJ;FfQ6hBalzOKTjj5DU83
+I2zooRTSIH^TC^Z<AY;0fG2
+R1
+R2
+w1749284366
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Memory.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Memory.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Memory.v|
+!i113 1
+R5
+R6
+n@memory
+vpicorv32
+R7
+!i10b 1
+!s100 B4?5R;mlJSDUkNJ2EZjA31
+IEb7E?BCj<Sgo:Q[2UlDdG3
+R1
+R2
+Z11 w1745389564
+Z12 8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/picorv32.v
+Z13 FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/picorv32.v
+L0 62
+R3
+r1
+!s85 0
+31
+R4
+Z14 !s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/picorv32.v|
+Z15 !s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/picorv32.v|
+!i113 1
+R5
+R6
+vpicorv32_axi
+R7
+!i10b 1
+!s100 DIIN^GgOF=FFY_kDBmc9K0
+Ic?YKgR5jAPfPlS`7MIODc1
+R1
+R2
+R11
+R12
+R13
+L0 2512
+R3
+r1
+!s85 0
+31
+R4
+R14
+R15
+!i113 1
+R5
+R6
+vpicorv32_axi_adapter
+R7
+!i10b 1
+!s100 ;K;h6<F4105=?5OZ6<i0S0
+I1gFY9oTgBQO5T39VBM08F0
+R1
+R2
+R11
+R12
+R13
+L0 2726
+R3
+r1
+!s85 0
+31
+R4
+R14
+R15
+!i113 1
+R5
+R6
+vpicorv32_pcpi_div
+R7
+!i10b 1
+!s100 9BNA]cGakBh345PS7A^ee2
+IlOaNSF_mRnhIn:=fRLN5L1
+R1
+R2
+R11
+R12
+R13
+L0 2415
+R3
+r1
+!s85 0
+31
+R4
+R14
+R15
+!i113 1
+R5
+R6
+vpicorv32_pcpi_fast_mul
+R7
+!i10b 1
+!s100 ?4EkmegoI4HQ[<joDTI122
+IK[cYA^1J2OH@aggYLl0VU3
+R1
+R2
+R11
+R12
+R13
+L0 2313
+R3
+r1
+!s85 0
+31
+R4
+R14
+R15
+!i113 1
+R5
+R6
+vpicorv32_pcpi_mul
+R7
+!i10b 1
+!s100 DzmJU_6<M^;Odc42?7iYB1
+Ie4[Sa8QfXf>MLF`RGD4UJ0
+R1
+R2
+R11
+R12
+R13
+L0 2192
+R3
+r1
+!s85 0
+31
+R4
+R14
+R15
+!i113 1
+R5
+R6
+vpicorv32_regs
+R7
+!i10b 1
+!s100 YkO:a69Tc@_4_17hN@`@`0
+ICdFhgNVTD6VJHLSXzn]650
+R1
+R2
+R11
+R12
+R13
+L0 2169
+R3
+r1
+!s85 0
+31
+R4
+R14
+R15
+!i113 1
+R5
+R6
+vpicorv32_wb
+R7
+!i10b 1
+!s100 A6:90?BckX8;<BD8R]jm[3
+I2ZLkS]nA]Mf4_:768Ea590
+R1
+R2
+R11
+R12
+R13
+L0 2810
+R3
+r1
+!s85 0
+31
+R4
+R14
+R15
+!i113 1
+R5
+R6
+vregs_GPIO
+R7
+!i10b 1
+!s100 W60kA<4Dabjm6;;B9BDDz1
+IcEB1@5V6?66h8[bEeX]d>2
+R1
+R2
+w1745031101
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_GPIO.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_GPIO.v
+L0 3
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_GPIO.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_GPIO.v|
+!i113 1
+R5
+R6
+nregs_@g@p@i@o
+vregs_I2C
+Z16 !s110 1749285642
+!i10b 1
+!s100 SXblPK4Wo=Jo<iSN6RB;l3
+IH481LW4C]<cOVUY2b9I_^2
+R1
+R2
+w1747466560
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_I2C.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_I2C.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z17 !s108 1749285642.000000
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_I2C.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_I2C.v|
+!i113 1
+R5
+R6
+nregs_@i2@c
+vregs_PWM
+R16
+!i10b 1
+!s100 S0An;ieF9OUcHXf`R5_mC1
+IVB`_PGT]A4^Eb8XdA8Mmo0
+R1
+R2
+w1746981624
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_PWM.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_PWM.v
+L0 3
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_PWM.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_PWM.v|
+!i113 1
+R5
+R6
+nregs_@p@w@m
+vregs_SPI
+R16
+!i10b 1
+!s100 Ua_DZ0UZNJ:3;2zXN=>1m3
+Ii6XnC>KI[zz]<4dJk9WAA1
+R1
+R2
+w1747544294
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_SPI.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_SPI.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z18 !s108 1749285641.000000
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_SPI.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_SPI.v|
+!i113 1
+R5
+R6
+nregs_@s@p@i
+vregs_TIME_BASE
+R9
+!i10b 1
+!s100 ?]NF?M5XJ8VfM3Jd1l2@b1
+I>Lo<8j3M4@N@IcE9bF<Qi0
+R1
+R2
+w1746853578
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_TIME_BASE.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_TIME_BASE.v
+L0 3
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_TIME_BASE.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_TIME_BASE.v|
+!i113 1
+R5
+R6
+nregs_@t@i@m@e_@b@a@s@e
+vregs_UART
+R16
+!i10b 1
+!s100 FB`MB9zfe^V[XD3YMaXX`2
+ILB[I<c[MNjR42ziXgc4VA0
+R1
+R2
+w1747161122
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_uart.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_uart.v
+L0 3
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_uart.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/regs_uart.v|
+!i113 1
+R5
+R6
+nregs_@u@a@r@t
+vSCLK_base
+R0
+!i10b 1
+!s100 OmmFFT5RABUU3>jRgX1Ib2
+IPhWaQ]f1Ada`1N<Che6PU2
+R1
+R2
+w1746517555
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_SCLK.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_SCLK.v
+L0 9
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_SCLK.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_SCLK.v|
+!i113 1
+R5
+R6
+n@s@c@l@k_base
+vspi_ip
+R16
+!i10b 1
+!s100 44O?Od;UZc?3EaJHoZZjF0
+IJUCmO>0F8X72FnKe5B04]1
+R1
+R2
+w1747155509
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_ip.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_ip.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_ip.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_ip.v|
+!i113 1
+R5
+R6
+vSPI_Master
+R0
+!i10b 1
+!s100 =<Jd7cTgKf5OlB>2<aAf42
+I0][FJZ4ldFSW2ODSPmWHz1
+R1
+R2
+w1746516056
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_Master.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_Master.v
+L0 8
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_Master.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_Master.v|
+!i113 1
+R5
+R6
+n@s@p@i_@master
+vSPI_Slave
+R16
+!i10b 1
+!s100 ;5nn<QWcDFIHb3M@8k>^j3
+Ig8me?ZIZG^OccIH>T<VkU3
+R1
+R2
+w1747034207
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_Slave.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_Slave.v
+L0 9
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_Slave.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/SPI_Slave.v|
+!i113 1
+R5
+R6
+n@s@p@i_@slave
+vtb_Top
+R7
+!i10b 1
+!s100 3K@@RCA@c1`aPLnDiLfYP0
+I7^<DMK3Y6AZZ1b^kM6DEK3
+R1
+R2
+w1749284845
+8C:\Users\PHONG\OneDrive - ptit.edu.vn\Desktop\Project_I2C\PROJECT_\top_tb.v
+FC:\Users\PHONG\OneDrive - ptit.edu.vn\Desktop\Project_I2C\PROJECT_\top_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:\Users\PHONG\OneDrive - ptit.edu.vn\Desktop\Project_I2C\PROJECT_\top_tb.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|C:\Users\PHONG\OneDrive - ptit.edu.vn\Desktop\Project_I2C\PROJECT_\top_tb.v|
+!i113 1
+R5
+R6
+ntb_@top
+vtest_module
+R7
+!i10b 1
+!s100 CGjCoUi<7g?;?ljO^I3`m2
+IB4PVAQ5^d:PR7?[6TONWE3
+R1
+R2
+w1745053444
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test2.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test2.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test2.v|
+!i113 1
+R5
+R6
+vtest_uart_led
+R0
+!i10b 1
+!s100 W:mb?Uj[mIh5zUa[LK?Sj3
+IHZR>eY;o0GHQbS?UIR;Q:3
+R1
+R2
+w1746416879
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test_uartrx.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test_uartrx.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test_uartrx.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test_uartrx.v|
+!i113 1
+R5
+R6
+vtimbase_ip
+R9
+!i10b 1
+!s100 DMW;`EN1I[Ofh9FNT8^Vd1
+I0kM35lhFHNZWoiIoYiN?O2
+R1
+R2
+w1746861657
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/TIMBASE_ip.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/TIMBASE_ip.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/TIMBASE_ip.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/TIMBASE_ip.v|
+!i113 1
+R5
+R6
+vTIMBASE_mapping
+R9
+!i10b 1
+!s100 OE52bm40:[B1dA2VkzX[[2
+InF499QV@Lic24g_?GnYEa3
+R1
+R2
+w1746853091
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/TIMBASE_mapping.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/TIMBASE_mapping.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/TIMBASE_mapping.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/TIMBASE_mapping.v|
+!i113 1
+R5
+R6
+n@t@i@m@b@a@s@e_mapping
+vTimer_base
+R9
+!i10b 1
+!s100 HaO4]=eLiH@b1Dl0Q6i6@1
+ImOD8[_5m:`ne[czLOUGeQ1
+R1
+R2
+w1746864178
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Timer_base.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Timer_base.v
+L0 7
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Timer_base.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Timer_base.v|
+!i113 1
+R5
+R6
+n@timer_base
+vTimer_PWM
+R16
+!i10b 1
+!s100 _<Q1a=2TE^G0DeO7RJf`m2
+Iz4oi>3BNkP_D?OR0LUkGb0
+R1
+R2
+w1746982124
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Timer_PWM.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Timer_PWM.v
+L0 8
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Timer_PWM.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/Timer_PWM.v|
+!i113 1
+R5
+R6
+n@timer_@p@w@m
+vTop
+R16
+!i10b 1
+!s100 nUVPm0ml[lh`cE=96VgPU1
+In46L>iEN_dnA066iIfb2U2
+R1
+R2
+w1749285638
+8D:\Gowin\Gowin_V1.9.10.03_Education_x64\IDE\bin\Documents\RISC_V\src\Top.v
+FD:\Gowin\Gowin_V1.9.10.03_Education_x64\IDE\bin\Documents\RISC_V\src\Top.v
+Z19 L0 10
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:\Gowin\Gowin_V1.9.10.03_Education_x64\IDE\bin\Documents\RISC_V\src\Top.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:\Gowin\Gowin_V1.9.10.03_Education_x64\IDE\bin\Documents\RISC_V\src\Top.v|
+!i113 1
+R5
+R6
+n@top
+vtop_test
+R7
+!i10b 1
+!s100 kn<IKIzNOO4Kc:@T6YBim3
+IIWG71AFh4AMnKjLJd7iS=0
+R1
+R2
+w1745053456
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test_i2c.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test_i2c.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test_i2c.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/test_i2c.v|
+!i113 1
+R5
+R6
+vTPWM_ip
+R16
+!i10b 1
+!s100 Nj3lY:>;=IYLd6T5;MzQi0
+IOGNaB?JQ0=:3A:0MYVWXS1
+R1
+R2
+w1746977444
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/TPWM_ip.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/TPWM_ip.v
+L0 5
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/TPWM_ip.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/TPWM_ip.v|
+!i113 1
+R5
+R6
+n@t@p@w@m_ip
+vUART
+!s110 1749285641
+!i10b 1
+!s100 1D25NAfI^=N<Xg>=6mUl?2
+IJPe_`:<=`8m^mZm>Ych8Q3
+R1
+R2
+w1749284313
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/UART_TRX.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/UART_TRX.v
+L0 34
+R3
+r1
+!s85 0
+31
+R18
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/UART_TRX.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/UART_TRX.v|
+!i113 1
+R5
+R6
+n@u@a@r@t
+vuart_ip
+R16
+!i10b 1
+!s100 F_jjhL50QRc<Jjo][P;GD1
+IKR1IgR82GgaTFJ:UY`N7O2
+R1
+R2
+w1747160361
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/uart_ip.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/uart_ip.v
+L0 98
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/uart_ip.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/uart_ip.v|
+!i113 1
+R5
+R6
+vuart_rx
+R16
+!i10b 1
+!s100 PY^?n1EmGSTV``9ggSkQU0
+IVGjRg6@`aPJ5EFL@m5J<m2
+R1
+R2
+w1747155810
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/UART_bootloader.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/UART_bootloader.v
+L0 2
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/UART_bootloader.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/UART_bootloader.v|
+!i113 1
+R5
+R6
+vuart_tx
+R0
+!i10b 1
+!s100 eZK;iNQWj1;^C>GBAZD5^2
+ICSF@`AHJ?f8?V7UNjoB`@1
+R1
+R2
+w1746255694
+8D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/uart_tx.v
+FD:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/uart_tx.v
+R19
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/uart_tx.v|
+!s90 -reportprogress|300|-work|workfn|-stats=none|D:/Gowin/Gowin_V1.9.10.03_Education_x64/IDE/bin/Documents/RISC_V/src/uart_tx.v|
+!i113 1
+R5
+R6

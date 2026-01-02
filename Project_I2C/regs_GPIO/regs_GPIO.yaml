@@ -1,0 +1,265 @@
+regmap:
+  - name: GPIO_IO
+    description: GPIO Read/Write Register
+    address: 0x0
+    bitfields:
+      - name: GPIO_0
+        description: GPIO0
+        lsb: 0
+        width: 1
+        access: rw
+        hardware: io
+        reset: 0
+        enums: []
+      - name: GPIO_1
+        description: GPIO1
+        lsb: 1
+        width: 1
+        access: rw
+        hardware: io
+        reset: 0
+        enums: []
+      - name: GPIO_2
+        description: GPIO2
+        lsb: 2
+        width: 1
+        access: rw
+        hardware: io
+        reset: 0
+        enums: []
+      - name: GPIO_3
+        description: GPIO3
+        lsb: 3
+        width: 1
+        access: rw
+        hardware: io
+        reset: 0
+        enums: []
+      - name: GPIO_4
+        description: GPIO4
+        lsb: 4
+        width: 1
+        access: rw
+        hardware: io
+        reset: 0
+        enums: []
+      - name: GPIO_5
+        description: GPIO5
+        lsb: 5
+        width: 1
+        access: rw
+        hardware: io
+        reset: 0
+        enums: []
+      - name: GPIO_6
+        description: GPIO6
+        lsb: 6
+        width: 1
+        access: rw
+        hardware: io
+        reset: 0
+        enums: []
+      - name: GPIO_7
+        description: GPIO7
+        lsb: 7
+        width: 1
+        access: rw
+        hardware: io
+        reset: 0
+        enums: []
+      - name: GPIO_8
+        description: GPIO8
+        lsb: 8
+        width: 1
+        access: rw
+        hardware: io
+        reset: 0
+        enums: []
+      - name: GPIO_9
+        description: GPIO9
+        lsb: 9
+        width: 1
+        access: rw
+        hardware: io
+        reset: 0
+        enums: []
+      - name: GPIO_10
+        description: GPIO10
+        lsb: 10
+        width: 1
+        access: rw
+        hardware: io
+        reset: 0
+        enums: []
+      - name: GPIO_11
+        description: GPIO11
+        lsb: 11
+        width: 1
+        access: rw
+        hardware: io
+        reset: 0
+        enums: []
+      - name: GPIO_12
+        description: GPIO12
+        lsb: 12
+        width: 1
+        access: rw
+        hardware: io
+        reset: 0
+        enums: []
+      - name: GPIO_13
+        description: GPIO13
+        lsb: 13
+        width: 1
+        access: rw
+        hardware: io
+        reset: 0
+        enums: []
+      - name: GPIO_14
+        description: GPIO14
+        lsb: 14
+        width: 1
+        access: rw
+        hardware: io
+        reset: 0
+        enums: []
+      - name: GPIO_15
+        description: GPIO15
+        lsb: 15
+        width: 1
+        access: rw
+        hardware: io
+        reset: 0
+        enums: []
+  - name: GPIO_config
+    description: GPIO config Register 0 output, 1 input
+    address: 4
+    bitfields:
+      - name: GPIO_0config
+        description: GPIO0_config
+        lsb: 0
+        width: 1
+        access: rw
+        hardware: o
+        reset: 0
+        enums: []
+      - name: GPIO_1config
+        description: GPIO1_config
+        lsb: 1
+        width: 1
+        access: rw
+        hardware: o
+        reset: 0
+        enums: []
+      - name: GPIO_2config
+        description: GPIO2_config
+        lsb: 2
+        width: 1
+        access: rw
+        hardware: o
+        reset: 0
+        enums: []
+      - name: GPIO_3config
+        description: GPIO3_config
+        lsb: 3
+        width: 1
+        access: rw
+        hardware: o
+        reset: 0
+        enums: []
+      - name: GPIO_4config
+        description: GPIO4_config
+        lsb: 4
+        width: 1
+        access: rw
+        hardware: o
+        reset: 0
+        enums: []
+      - name: GPIO_5config
+        description: GPIO5_config
+        lsb: 5
+        width: 1
+        access: rw
+        hardware: o
+        reset: 0
+        enums: []
+      - name: GPIO_6config
+        description: GPIO6_config
+        lsb: 6
+        width: 1
+        access: rw
+        hardware: o
+        reset: 0
+        enums: []
+      - name: GPIO_7config
+        description: GPIO7_config
+        lsb: 7
+        width: 1
+        access: rw
+        hardware: o
+        reset: 0
+        enums: []
+      - name: GPIO_8config
+        description: GPIO8_config
+        lsb: 8
+        width: 1
+        access: rw
+        hardware: o
+        reset: 0
+        enums: []
+      - name: GPIO_9config
+        description: GPIO9_config
+        lsb: 9
+        width: 1
+        access: rw
+        hardware: o
+        reset: 0
+        enums: []
+      - name: GPIO_10config
+        description: GPIO10_config
+        lsb: 10
+        width: 1
+        access: rw
+        hardware: o
+        reset: 0
+        enums: []
+      - name: GPIO_11config
+        description: GPIO11_config
+        lsb: 11
+        width: 1
+        access: rw
+        hardware: o
+        reset: 0
+        enums: []
+      - name: GPIO_12config
+        description: GPIO12_config
+        lsb: 12
+        width: 1
+        access: rw
+        hardware: o
+        reset: 0
+        enums: []
+      - name: GPIO_13config
+        description: GPIO13_config
+        lsb: 13
+        width: 1
+        access: rw
+        hardware: o
+        reset: 0
+        enums: []
+      - name: GPIO_14config
+        description: GPIO14_config
+        lsb: 14
+        width: 1
+        access: rw
+        hardware: o
+        reset: 0
+        enums: []
+      - name: GPIO_15config
+        description: GPIO15_config
+        lsb: 15
+        width: 1
+        access: rw
+        hardware: o
+        reset: 0
+        enums: []

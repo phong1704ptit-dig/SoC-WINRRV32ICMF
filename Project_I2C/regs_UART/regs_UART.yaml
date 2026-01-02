@@ -1,0 +1,46 @@
+regmap:
+-   name: U_DATA
+    description: UART Data register
+    address: 0
+    bitfields:
+    -   name: DATA
+        description: Data To Send Via UART TX
+        reset: 0
+        width: 8
+        lsb: 0
+        access: rw
+        hardware: o
+        enums: []
+-   name: U_STAT
+    description: UART Status register
+    address: 4
+    bitfields:
+    -   name: READY
+        description: UART is Ready
+        reset: 1
+        width: 1
+        lsb: 5
+        access: ro
+        hardware: i
+        enums: []
+    -   name: TX_DONE
+        description: Done Transmitting The Last Char (8-bit)
+        reset: 0
+        width: 1
+        lsb: 13
+        access: roc
+        hardware: i
+        enums: []
+-   name: U_CTRL
+    description: UART Control register
+    address: 8
+    bitfields:
+    -   name: START
+        description: TX Begin Signal, Valid For Only One Cycle
+        reset: 0
+        width: 1
+        lsb: 9
+        access: wosc
+        hardware: o
+        enums: []
+

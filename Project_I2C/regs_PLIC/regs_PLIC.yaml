@@ -1,0 +1,1749 @@
+regmap:
+  # Priority Registers
+regmap:
+  - name: P_PRIORITY1
+    description: Priority Register IRQ1 (3-bit, 8 levels)
+    address: '0x0004'
+    bitfields:
+      - name: PRIORITY1
+        description: Priority level of IRQ1. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY2
+    description: Priority Register IRQ2 (3-bit, 8 levels)
+    address: '0x0008'
+    bitfields:
+      - name: PRIORITY2
+        description: Priority level of IRQ2. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY3
+    description: Priority Register IRQ3 (3-bit, 8 levels)
+    address: '0x000C'
+    bitfields:
+      - name: PRIORITY3
+        description: Priority level of IRQ3. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY4
+    description: Priority Register IRQ4 (3-bit, 8 levels)
+    address: '0x0010'
+    bitfields:
+      - name: PRIORITY4
+        description: Priority level of IRQ4. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY5
+    description: Priority Register IRQ5 (3-bit, 8 levels)
+    address: '0x0014'
+    bitfields:
+      - name: PRIORITY5
+        description: Priority level of IRQ5. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY6
+    description: Priority Register IRQ6 (3-bit, 8 levels)
+    address: '0x0018'
+    bitfields:
+      - name: PRIORITY6
+        description: Priority level of IRQ6. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY7
+    description: Priority Register IRQ7 (3-bit, 8 levels)
+    address: '0x001C'
+    bitfields:
+      - name: PRIORITY7
+        description: Priority level of IRQ7. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY8
+    description: Priority Register IRQ8 (3-bit, 8 levels)
+    address: '0x0020'
+    bitfields:
+      - name: PRIORITY8
+        description: Priority level of IRQ8. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY9
+    description: Priority Register IRQ9 (3-bit, 8 levels)
+    address: '0x0024'
+    bitfields:
+      - name: PRIORITY9
+        description: Priority level of IRQ9. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY10
+    description: Priority Register IRQ10 (3-bit, 8 levels)
+    address: '0x0028'
+    bitfields:
+      - name: PRIORITY10
+        description: Priority level of IRQ10. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY11
+    description: Priority Register IRQ11 (3-bit, 8 levels)
+    address: '0x002C'
+    bitfields:
+      - name: PRIORITY11
+        description: Priority level of IRQ11. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY12
+    description: Priority Register IRQ12 (3-bit, 8 levels)
+    address: '0x0030'
+    bitfields:
+      - name: PRIORITY12
+        description: Priority level of IRQ12. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY13
+    description: Priority Register IRQ13 (3-bit, 8 levels)
+    address: '0x0034'
+    bitfields:
+      - name: PRIORITY13
+        description: Priority level of IRQ13. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY14
+    description: Priority Register IRQ14 (3-bit, 8 levels)
+    address: '0x0038'
+    bitfields:
+      - name: PRIORITY14
+        description: Priority level of IRQ14. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY15
+    description: Priority Register IRQ15 (3-bit, 8 levels)
+    address: '0x003C'
+    bitfields:
+      - name: PRIORITY15
+        description: Priority level of IRQ15. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY16
+    description: Priority Register IRQ16 (3-bit, 8 levels)
+    address: '0x0040'
+    bitfields:
+      - name: PRIORITY16
+        description: Priority level of IRQ16. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY17
+    description: Priority Register IRQ17 (3-bit, 8 levels)
+    address: '0x0044'
+    bitfields:
+      - name: PRIORITY17
+        description: Priority level of IRQ17. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY18
+    description: Priority Register IRQ18 (3-bit, 8 levels)
+    address: '0x0048'
+    bitfields:
+      - name: PRIORITY18
+        description: Priority level of IRQ18. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY19
+    description: Priority Register IRQ19 (3-bit, 8 levels)
+    address: '0x004C'
+    bitfields:
+      - name: PRIORITY19
+        description: Priority level of IRQ19. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY20
+    description: Priority Register IRQ20 (3-bit, 8 levels)
+    address: '0x0050'
+    bitfields:
+      - name: PRIORITY20
+        description: Priority level of IRQ20. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+
+  - name: P_PRIORITY21
+    description: Priority Register IRQ21 (3-bit, 8 levels)
+    address: '0x0054'
+    bitfields:
+      - name: PRIORITY21
+        description: Priority level of IRQ21. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY22
+    description: Priority Register IRQ22 (3-bit, 8 levels)
+    address: '0x0058'
+    bitfields:
+      - name: PRIORITY22
+        description: Priority level of IRQ22. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY23
+    description: Priority Register IRQ23 (3-bit, 8 levels)
+    address: '0x005C'
+    bitfields:
+      - name: PRIORITY23
+        description: Priority level of IRQ23. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY24
+    description: Priority Register IRQ24 (3-bit, 8 levels)
+    address: '0x0060'
+    bitfields:
+      - name: PRIORITY24
+        description: Priority level of IRQ24. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY25
+    description: Priority Register IRQ25 (3-bit, 8 levels)
+    address: '0x0064'
+    bitfields:
+      - name: PRIORITY25
+        description: Priority level of IRQ25. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY26
+    description: Priority Register IRQ26 (3-bit, 8 levels)
+    address: '0x0068'
+    bitfields:
+      - name: PRIORITY26
+        description: Priority level of IRQ26. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY27
+    description: Priority Register IRQ27 (3-bit, 8 levels)
+    address: '0x006C'
+    bitfields:
+      - name: PRIORITY27
+        description: Priority level of IRQ27. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY28
+    description: Priority Register IRQ28 (3-bit, 8 levels)
+    address: '0x0070'
+    bitfields:
+      - name: PRIORITY28
+        description: Priority level of IRQ28. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY29
+    description: Priority Register IRQ29 (3-bit, 8 levels)
+    address: '0x0074'
+    bitfields:
+      - name: PRIORITY29
+        description: Priority level of IRQ29. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY30
+    description: Priority Register IRQ30 (3-bit, 8 levels)
+    address: '0x0078'
+    bitfields:
+      - name: PRIORITY30
+        description: Priority level of IRQ30. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY31
+    description: Priority Register IRQ31 (3-bit, 8 levels)
+    address: '0x007C'
+    bitfields:
+      - name: PRIORITY31
+        description: Priority level of IRQ31. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY32
+    description: Priority Register IRQ32 (3-bit, 8 levels)
+    address: '0x0080'
+    bitfields:
+      - name: PRIORITY32
+        description: Priority level of IRQ32. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY33
+    description: Priority Register IRQ33 (3-bit, 8 levels)
+    address: '0x0084'
+    bitfields:
+      - name: PRIORITY33
+        description: Priority level of IRQ33. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY34
+    description: Priority Register IRQ34 (3-bit, 8 levels)
+    address: '0x0088'
+    bitfields:
+      - name: PRIORITY34
+        description: Priority level of IRQ34. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY35
+    description: Priority Register IRQ35 (3-bit, 8 levels)
+    address: '0x008C'
+    bitfields:
+      - name: PRIORITY35
+        description: Priority level of IRQ35. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY36
+    description: Priority Register IRQ36 (3-bit, 8 levels)
+    address: '0x0090'
+    bitfields:
+      - name: PRIORITY36
+        description: Priority level of IRQ36. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY37
+    description: Priority Register IRQ37 (3-bit, 8 levels)
+    address: '0x0094'
+    bitfields:
+      - name: PRIORITY37
+        description: Priority level of IRQ37. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY38
+    description: Priority Register IRQ38 (3-bit, 8 levels)
+    address: '0x0098'
+    bitfields:
+      - name: PRIORITY38
+        description: Priority level of IRQ38. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY39
+    description: Priority Register IRQ39 (3-bit, 8 levels)
+    address: '0x009C'
+    bitfields:
+      - name: PRIORITY39
+        description: Priority level of IRQ39. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY40
+    description: Priority Register IRQ40 (3-bit, 8 levels)
+    address: '0x00A0'
+    bitfields:
+      - name: PRIORITY40
+        description: Priority level of IRQ40. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY41
+    description: Priority Register IRQ41 (3-bit, 8 levels)
+    address: '0x00A4'
+    bitfields:
+      - name: PRIORITY41
+        description: Priority level of IRQ41. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY42
+    description: Priority Register IRQ42 (3-bit, 8 levels)
+    address: '0x00A8'
+    bitfields:
+      - name: PRIORITY42
+        description: Priority level of IRQ42. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY43
+    description: Priority Register IRQ43 (3-bit, 8 levels)
+    address: '0x00AC'
+    bitfields:
+      - name: PRIORITY43
+        description: Priority level of IRQ43. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY44
+    description: Priority Register IRQ44 (3-bit, 8 levels)
+    address: '0x00B0'
+    bitfields:
+      - name: PRIORITY44
+        description: Priority level of IRQ44. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY45
+    description: Priority Register IRQ45 (3-bit, 8 levels)
+    address: '0x00B4'
+    bitfields:
+      - name: PRIORITY45
+        description: Priority level of IRQ45. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY46
+    description: Priority Register IRQ46 (3-bit, 8 levels)
+    address: '0x00B8'
+    bitfields:
+      - name: PRIORITY46
+        description: Priority level of IRQ46. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY47
+    description: Priority Register IRQ47 (3-bit, 8 levels)
+    address: '0x00BC'
+    bitfields:
+      - name: PRIORITY47
+        description: Priority level of IRQ47. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY48
+    description: Priority Register IRQ48 (3-bit, 8 levels)
+    address: '0x00C0'
+    bitfields:
+      - name: PRIORITY48
+        description: Priority level of IRQ48. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY49
+    description: Priority Register IRQ49 (3-bit, 8 levels)
+    address: '0x00C4'
+    bitfields:
+      - name: PRIORITY49
+        description: Priority level of IRQ49. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY50
+    description: Priority Register IRQ50 (3-bit, 8 levels)
+    address: '0x00C8'
+    bitfields:
+      - name: PRIORITY50
+        description: Priority level of IRQ50. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY51
+    description: Priority Register IRQ51 (3-bit, 8 levels)
+    address: '0x00CC'
+    bitfields:
+      - name: PRIORITY51
+        description: Priority level of IRQ51. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY52
+    description: Priority Register IRQ52 (3-bit, 8 levels)
+    address: '0x00D0'
+    bitfields:
+      - name: PRIORITY52
+        description: Priority level of IRQ52. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY53
+    description: Priority Register IRQ53 (3-bit, 8 levels)
+    address: '0x00D4'
+    bitfields:
+      - name: PRIORITY53
+        description: Priority level of IRQ53. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY54
+    description: Priority Register IRQ54 (3-bit, 8 levels)
+    address: '0x00D8'
+    bitfields:
+      - name: PRIORITY54
+        description: Priority level of IRQ54. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY55
+    description: Priority Register IRQ55 (3-bit, 8 levels)
+    address: '0x00DC'
+    bitfields:
+      - name: PRIORITY55
+        description: Priority level of IRQ55. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY56
+    description: Priority Register IRQ56 (3-bit, 8 levels)
+    address: '0x00E0'
+    bitfields:
+      - name: PRIORITY56
+        description: Priority level of IRQ56. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY57
+    description: Priority Register IRQ57 (3-bit, 8 levels)
+    address: '0x00E4'
+    bitfields:
+      - name: PRIORITY57
+        description: Priority level of IRQ57. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY58
+    description: Priority Register IRQ58 (3-bit, 8 levels)
+    address: '0x00E8'
+    bitfields:
+      - name: PRIORITY58
+        description: Priority level of IRQ58. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY59
+    description: Priority Register IRQ59 (3-bit, 8 levels)
+    address: '0x00EC'
+    bitfields:
+      - name: PRIORITY59
+        description: Priority level of IRQ59. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY60
+    description: Priority Register IRQ60 (3-bit, 8 levels)
+    address: '0x00F0'
+    bitfields:
+      - name: PRIORITY60
+        description: Priority level of IRQ60. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY61
+    description: Priority Register IRQ61 (3-bit, 8 levels)
+    address: '0x00F4'
+    bitfields:
+      - name: PRIORITY61
+        description: Priority level of IRQ61. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY62
+    description: Priority Register IRQ62 (3-bit, 8 levels)
+    address: '0x00F8'
+    bitfields:
+      - name: PRIORITY62
+        description: Priority level of IRQ62. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY63
+    description: Priority Register IRQ63 (3-bit, 8 levels)
+    address: '0x00FC'
+    bitfields:
+      - name: PRIORITY63
+        description: Priority level of IRQ63. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: P_PRIORITY64
+    description: Priority Register IRQ64 (3-bit, 8 levels)
+    address: '0x0100'
+    bitfields:
+      - name: PRIORITY64
+        description: Priority level of IRQ64. 0 = Interrupt disabled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  # Pending Registers
+  - name: P_PENDING0
+    description: Pending bits for IRQ1–IRQ31
+    address: '0x1000'
+    bitfields:
+    - name: PENDING_IRQ1
+      description: Pending status of IRQ1
+      reset: 0
+      width: 1
+      lsb: 1
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ2
+      description: Pending status of IRQ2
+      reset: 0
+      width: 1
+      lsb: 2
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ3
+      description: Pending status of IRQ3
+      reset: 0
+      width: 1
+      lsb: 3
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ4
+      description: Pending status of IRQ4
+      reset: 0
+      width: 1
+      lsb: 4
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ5
+      description: Pending status of IRQ5
+      reset: 0
+      width: 1
+      lsb: 5
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ6
+      description: Pending status of IRQ6
+      reset: 0
+      width: 1
+      lsb: 6
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ7
+      description: Pending status of IRQ7
+      reset: 0
+      width: 1
+      lsb: 7
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ8
+      description: Pending status of IRQ8
+      reset: 0
+      width: 1
+      lsb: 8
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ9
+      description: Pending status of IRQ9
+      reset: 0
+      width: 1
+      lsb: 9
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ10
+      description: Pending status of IRQ10
+      reset: 0
+      width: 1
+      lsb: 10
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ11
+      description: Pending status of IRQ11
+      reset: 0
+      width: 1
+      lsb: 11
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ12
+      description: Pending status of IRQ12
+      reset: 0
+      width: 1
+      lsb: 12
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ13
+      description: Pending status of IRQ13
+      reset: 0
+      width: 1
+      lsb: 13
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ14
+      description: Pending status of IRQ14
+      reset: 0
+      width: 1
+      lsb: 14
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ15
+      description: Pending status of IRQ15
+      reset: 0
+      width: 1
+      lsb: 15
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ16
+      description: Pending status of IRQ16
+      reset: 0
+      width: 1
+      lsb: 16
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ17
+      description: Pending status of IRQ17
+      reset: 0
+      width: 1
+      lsb: 17
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ18
+      description: Pending status of IRQ18
+      reset: 0
+      width: 1
+      lsb: 18
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ19
+      description: Pending status of IRQ19
+      reset: 0
+      width: 1
+      lsb: 19
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ20
+      description: Pending status of IRQ20
+      reset: 0
+      width: 1
+      lsb: 20
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ21
+      description: Pending status of IRQ21
+      reset: 0
+      width: 1
+      lsb: 21
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ22
+      description: Pending status of IRQ22
+      reset: 0
+      width: 1
+      lsb: 22
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ23
+      description: Pending status of IRQ23
+      reset: 0
+      width: 1
+      lsb: 23
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ24
+      description: Pending status of IRQ24
+      reset: 0
+      width: 1
+      lsb: 24
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ25
+      description: Pending status of IRQ25
+      reset: 0
+      width: 1
+      lsb: 25
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ26
+      description: Pending status of IRQ26
+      reset: 0
+      width: 1
+      lsb: 26
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ27
+      description: Pending status of IRQ27
+      reset: 0
+      width: 1
+      lsb: 27
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ28
+      description: Pending status of IRQ28
+      reset: 0
+      width: 1
+      lsb: 28
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ29
+      description: Pending status of IRQ29
+      reset: 0
+      width: 1
+      lsb: 29
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ30
+      description: Pending status of IRQ30
+      reset: 0
+      width: 1
+      lsb: 30
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ31
+      description: Pending status of IRQ31
+      reset: 0
+      width: 1
+      lsb: 31
+      access: ro
+      hardware: i
+      storage: false
+
+  - name: P_PENDING1
+    description: Pending bits for IRQ32–IRQ62
+    address: '0x1004'
+    bitfields:
+    - name: PENDING_IRQ32
+      description: Pending status of IRQ32
+      reset: 0
+      width: 1
+      lsb: 1
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ33
+      description: Pending status of IRQ33
+      reset: 0
+      width: 1
+      lsb: 2
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ34
+      description: Pending status of IRQ34
+      reset: 0
+      width: 1
+      lsb: 3
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ35
+      description: Pending status of IRQ35
+      reset: 0
+      width: 1
+      lsb: 4
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ36
+      description: Pending status of IRQ36
+      reset: 0
+      width: 1
+      lsb: 5
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ37
+      description: Pending status of IRQ37
+      reset: 0
+      width: 1
+      lsb: 6
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ38
+      description: Pending status of IRQ38
+      reset: 0
+      width: 1
+      lsb: 7
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ39
+      description: Pending status of IRQ39
+      reset: 0
+      width: 1
+      lsb: 8
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ40
+      description: Pending status of IRQ40
+      reset: 0
+      width: 1
+      lsb: 9
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ41
+      description: Pending status of IRQ41
+      reset: 0
+      width: 1
+      lsb: 10
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ42
+      description: Pending status of IRQ42
+      reset: 0
+      width: 1
+      lsb: 11
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ43
+      description: Pending status of IRQ43
+      reset: 0
+      width: 1
+      lsb: 12
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ44
+      description: Pending status of IRQ44
+      reset: 0
+      width: 1
+      lsb: 13
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ45
+      description: Pending status of IRQ45
+      reset: 0
+      width: 1
+      lsb: 14
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ46
+      description: Pending status of IRQ46
+      reset: 0
+      width: 1
+      lsb: 15
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ47
+      description: Pending status of IRQ47
+      reset: 0
+      width: 1
+      lsb: 16
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ48
+      description: Pending status of IRQ48
+      reset: 0
+      width: 1
+      lsb: 17
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ49
+      description: Pending status of IRQ49
+      reset: 0
+      width: 1
+      lsb: 18
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ50
+      description: Pending status of IRQ50
+      reset: 0
+      width: 1
+      lsb: 19
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ51
+      description: Pending status of IRQ51
+      reset: 0
+      width: 1
+      lsb: 20
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ52
+      description: Pending status of IRQ52
+      reset: 0
+      width: 1
+      lsb: 21
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ53
+      description: Pending status of IRQ53
+      reset: 0
+      width: 1
+      lsb: 22
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ54
+      description: Pending status of IRQ54
+      reset: 0
+      width: 1
+      lsb: 23
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ55
+      description: Pending status of IRQ55
+      reset: 0
+      width: 1
+      lsb: 24
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ56
+      description: Pending status of IRQ56
+      reset: 0
+      width: 1
+      lsb: 25
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ57
+      description: Pending status of IRQ57
+      reset: 0
+      width: 1
+      lsb: 26
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ58
+      description: Pending status of IRQ58
+      reset: 0
+      width: 1
+      lsb: 27
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ59
+      description: Pending status of IRQ59
+      reset: 0
+      width: 1
+      lsb: 28
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ60
+      description: Pending status of IRQ60
+      reset: 0
+      width: 1
+      lsb: 29
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ61
+      description: Pending status of IRQ61
+      reset: 0
+      width: 1
+      lsb: 30
+      access: ro
+      hardware: i
+      storage: false
+    - name: PENDING_IRQ62
+      description: Pending status of IRQ62
+      reset: 0
+      width: 1
+      lsb: 31
+      access: ro
+      hardware: i
+      storage: false
+
+  - name: P_ENABLE0
+    description: Enable bits for IRQ1–IRQ31
+    address: '0x2000'
+    bitfields:
+    - name: ENABLE_IRQ1
+      description: Enable mask for IRQ1
+      reset: 0
+      width: 1
+      lsb: 1
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ2
+      description: Enable mask for IRQ2
+      reset: 0
+      width: 1
+      lsb: 2
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ3
+      description: Enable mask for IRQ3
+      reset: 0
+      width: 1
+      lsb: 3
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ4
+      description: Enable mask for IRQ4
+      reset: 0
+      width: 1
+      lsb: 4
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ5
+      description: Enable mask for IRQ5
+      reset: 0
+      width: 1
+      lsb: 5
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ6
+      description: Enable mask for IRQ6
+      reset: 0
+      width: 1
+      lsb: 6
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ7
+      description: Enable mask for IRQ7
+      reset: 0
+      width: 1
+      lsb: 7
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ8
+      description: Enable mask for IRQ8
+      reset: 0
+      width: 1
+      lsb: 8
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ9
+      description: Enable mask for IRQ9
+      reset: 0
+      width: 1
+      lsb: 9
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ10
+      description: Enable mask for IRQ10
+      reset: 0
+      width: 1
+      lsb: 10
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ11
+      description: Enable mask for IRQ11
+      reset: 0
+      width: 1
+      lsb: 11
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ12
+      description: Enable mask for IRQ12
+      reset: 0
+      width: 1
+      lsb: 12
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ13
+      description: Enable mask for IRQ13
+      reset: 0
+      width: 1
+      lsb: 13
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ14
+      description: Enable mask for IRQ14
+      reset: 0
+      width: 1
+      lsb: 14
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ15
+      description: Enable mask for IRQ15
+      reset: 0
+      width: 1
+      lsb: 15
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ16
+      description: Enable mask for IRQ16
+      reset: 0
+      width: 1
+      lsb: 16
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ17
+      description: Enable mask for IRQ17
+      reset: 0
+      width: 1
+      lsb: 17
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ18
+      description: Enable mask for IRQ18
+      reset: 0
+      width: 1
+      lsb: 18
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ19
+      description: Enable mask for IRQ19
+      reset: 0
+      width: 1
+      lsb: 19
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ20
+      description: Enable mask for IRQ20
+      reset: 0
+      width: 1
+      lsb: 20
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ21
+      description: Enable mask for IRQ21
+      reset: 0
+      width: 1
+      lsb: 21
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ22
+      description: Enable mask for IRQ22
+      reset: 0
+      width: 1
+      lsb: 22
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ23
+      description: Enable mask for IRQ23
+      reset: 0
+      width: 1
+      lsb: 23
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ24
+      description: Enable mask for IRQ24
+      reset: 0
+      width: 1
+      lsb: 24
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ25
+      description: Enable mask for IRQ25
+      reset: 0
+      width: 1
+      lsb: 25
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ26
+      description: Enable mask for IRQ26
+      reset: 0
+      width: 1
+      lsb: 26
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ27
+      description: Enable mask for IRQ27
+      reset: 0
+      width: 1
+      lsb: 27
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ28
+      description: Enable mask for IRQ28
+      reset: 0
+      width: 1
+      lsb: 28
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ29
+      description: Enable mask for IRQ29
+      reset: 0
+      width: 1
+      lsb: 29
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ30
+      description: Enable mask for IRQ30
+      reset: 0
+      width: 1
+      lsb: 30
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ31
+      description: Enable mask for IRQ31
+      reset: 0
+      width: 1
+      lsb: 31
+      access: rw
+      hardware: o
+
+  - name: P_ENABLE1
+    description: Enable bits for IRQ32–IRQ62
+    address: '0x2004'
+    bitfields:
+    - name: ENABLE_IRQ32
+      description: Enable mask for IRQ32
+      reset: 0
+      width: 1
+      lsb: 1
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ33
+      description: Enable mask for IRQ33
+      reset: 0
+      width: 1
+      lsb: 2
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ34
+      description: Enable mask for IRQ34
+      reset: 0
+      width: 1
+      lsb: 3
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ35
+      description: Enable mask for IRQ35
+      reset: 0
+      width: 1
+      lsb: 4
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ36
+      description: Enable mask for IRQ36
+      reset: 0
+      width: 1
+      lsb: 5
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ37
+      description: Enable mask for IRQ37
+      reset: 0
+      width: 1
+      lsb: 6
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ38
+      description: Enable mask for IRQ38
+      reset: 0
+      width: 1
+      lsb: 7
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ39
+      description: Enable mask for IRQ39
+      reset: 0
+      width: 1
+      lsb: 8
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ40
+      description: Enable mask for IRQ40
+      reset: 0
+      width: 1
+      lsb: 9
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ41
+      description: Enable mask for IRQ41
+      reset: 0
+      width: 1
+      lsb: 10
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ42
+      description: Enable mask for IRQ42
+      reset: 0
+      width: 1
+      lsb: 11
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ43
+      description: Enable mask for IRQ43
+      reset: 0
+      width: 1
+      lsb: 12
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ44
+      description: Enable mask for IRQ44
+      reset: 0
+      width: 1
+      lsb: 13
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ45
+      description: Enable mask for IRQ45
+      reset: 0
+      width: 1
+      lsb: 14
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ46
+      description: Enable mask for IRQ46
+      reset: 0
+      width: 1
+      lsb: 15
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ47
+      description: Enable mask for IRQ47
+      reset: 0
+      width: 1
+      lsb: 16
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ48
+      description: Enable mask for IRQ48
+      reset: 0
+      width: 1
+      lsb: 17
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ49
+      description: Enable mask for IRQ49
+      reset: 0
+      width: 1
+      lsb: 18
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ50
+      description: Enable mask for IRQ50
+      reset: 0
+      width: 1
+      lsb: 19
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ51
+      description: Enable mask for IRQ51
+      reset: 0
+      width: 1
+      lsb: 20
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ52
+      description: Enable mask for IRQ52
+      reset: 0
+      width: 1
+      lsb: 21
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ53
+      description: Enable mask for IRQ53
+      reset: 0
+      width: 1
+      lsb: 22
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ54
+      description: Enable mask for IRQ54
+      reset: 0
+      width: 1
+      lsb: 23
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ55
+      description: Enable mask for IRQ55
+      reset: 0
+      width: 1
+      lsb: 24
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ56
+      description: Enable mask for IRQ56
+      reset: 0
+      width: 1
+      lsb: 25
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ57
+      description: Enable mask for IRQ57
+      reset: 0
+      width: 1
+      lsb: 26
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ58
+      description: Enable mask for IRQ58
+      reset: 0
+      width: 1
+      lsb: 27
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ59
+      description: Enable mask for IRQ59
+      reset: 0
+      width: 1
+      lsb: 28
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ60
+      description: Enable mask for IRQ60
+      reset: 0
+      width: 1
+      lsb: 29
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ61
+      description: Enable mask for IRQ61
+      reset: 0
+      width: 1
+      lsb: 30
+      access: rw
+      hardware: o
+    - name: ENABLE_IRQ62
+      description: Enable mask for IRQ62
+      reset: 0
+      width: 1
+      lsb: 31
+      access: rw
+      hardware: o
+
+
+  # Threshold Register
+  - name: P_THRESHOLD
+    description: Priority threshold register
+    address: '0x200000'
+    bitfields:
+      - name: THRESHOLD
+        description: Only IRQs with priority > threshold will be signaled
+        reset: 0
+        width: 3
+        lsb: 0
+        access: rw
+        hardware: o
+
+  # Claim/Complete Register
+  - name: P_CLAIMCOMPLETE
+    description: Claim/Complete register
+    address: '0x200004'
+    bitfields:
+      - name: CP
+        description: Read = claim IRQ ID, Write = complete IRQ ID
+        reset: 0
+        width: 6     
+        lsb: 0
+        access: rw
+        hardware: io

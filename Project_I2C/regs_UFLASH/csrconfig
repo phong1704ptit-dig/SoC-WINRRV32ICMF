@@ -1,0 +1,37 @@
+[globcfg]
+base_address = 0x00000000
+data_width = 32
+address_width = 32
+register_reset = async_neg
+address_increment = none
+address_alignment = data_width
+force_name_case = none
+regmap_path = regs_UFLASH.yaml
+
+[v_module]
+path = hw/regs_UFLASH.v
+read_filler = 0
+interface = lb
+generator = Verilog
+
+
+[v_header]
+path = hw/regs_UFLASH.vh
+prefix = UFLASH
+generator = VerilogHeader
+
+
+[c_header]
+path = sw/regs_UFLASH.h
+prefix = UFLASH
+generator = CHeader
+
+[md_doc]
+path = doc/regs_UFLASH.md
+title = Register map
+print_images = True
+image_dir = md_img
+print_conventions = True
+generator = Markdown
+
+

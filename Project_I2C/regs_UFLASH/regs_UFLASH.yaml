@@ -1,0 +1,228 @@
+regmap:
+  - name: UFLASH_KEY1
+    description: Unlock key for User Flash region
+    address: '0x00'
+    bitfields:
+      - name: KEY
+        description: 32-bit unlock key value(0x57494E44 - WIND)
+        reset: 0
+        width: 32
+        lsb: 0
+        access: wo
+        hardware: o
+        enums: []
+
+  - name: UFLASH_KEY2
+    description: Unlock key for Text Flash region
+    address: '0x04'
+    bitfields:
+      - name: KEY
+        description: 32-bit unlock key value
+        reset: 0
+        width: 32
+        lsb: 0
+        access: wo
+        hardware: o
+        enums: []
+
+  - name: UFLASH_KEY3
+    description: Unlock key for Boot Flash region
+    address: '0x08'
+    bitfields:
+      - name: KEY
+        description: 32-bit unlock key value
+        reset: 0
+        width: 32
+        lsb: 0
+        access: wo
+        hardware: o
+        enums: []
+
+  - name: UFLASH_CR
+    description: Flash Control Register
+    address: '0x0C'
+    bitfields:
+      - name: USER_EN
+        description: Enable access to User region
+        reset: 0
+        width: 1
+        lsb: 0
+        access: rw
+        hardware: o
+        enums: []
+      - name: TEXT_EN
+        description: Enable access to Text region
+        reset: 0
+        width: 1
+        lsb: 1
+        access: rw
+        hardware: o
+        enums: []
+      - name: BOOT_EN
+        description: Enable access to Boot region
+        reset: 0
+        width: 1
+        lsb: 2
+        access: rw
+        hardware: o
+        enums: []
+      - name: PROG_EN
+        description: Program enable
+        reset: 0
+        width: 1
+        lsb: 3
+        access: rw
+        hardware: o
+        enums: []
+      - name: READ_EN
+        description: Read enable
+        reset: 0
+        width: 1
+        lsb: 4
+        access: rw
+        hardware: o
+        enums: []
+      - name: ERASE_EN
+        description: Erase enable
+        reset: 0
+        width: 1
+        lsb: 5
+        access: rw
+        hardware: o
+        enums: []
+      - name: MODE
+        description: Flash operation mode
+        reset: 0
+        width: 2
+        lsb: 6
+        access: rw
+        hardware: o
+        enums:
+          - name: READ
+            value: 0
+            description: Read mode
+          - name: PROGRAM
+            value: 1
+            description: Program mode
+          - name: ERASE
+            value: 2
+            description: Erase mode
+          - name: IDLE
+            value: 3
+            description: Idle mode
+
+  - name: UFLASH_SR
+    description: Flash Status Register
+    address: '0x10'
+    bitfields:
+      - name: ERRA_USER
+        description: Error unauthorized access to User region
+        reset: 0
+        width: 1
+        lsb: 0
+        access: ro
+        hardware: i
+        storage: false
+        enums: []
+      - name: ERRA_TEXT
+        description: Error unauthorized access to Text region
+        reset: 0
+        width: 1
+        lsb: 1
+        access: ro
+        hardware: i
+        storage: false
+        enums: []
+      - name: ERRA_BOOT
+        description: Error unauthorized access to Boot region
+        reset: 0
+        width: 1
+        lsb: 2
+        access: ro
+        hardware: i
+        storage: false
+        enums: []
+      - name: ERRA_OVF
+        description: Error address overflow
+        reset: 0
+        width: 1
+        lsb: 3
+        access: ro
+        hardware: i
+        storage: false
+        enums: []
+      - name: RD_DONE
+        description: Read operation finished
+        reset: 0
+        width: 1
+        lsb: 4
+        access: ro
+        hardware: i
+        storage: false
+        enums: []
+      - name: PROG_DONE
+        description: Program operation finished
+        reset: 0
+        width: 1
+        lsb: 5
+        access: ro
+        hardware: i
+        storage: false
+        enums: []
+      - name: ERASE_DONE
+        description: Erase operation finished
+        reset: 0
+        width: 1
+        lsb: 6
+        access: ro
+        hardware: i
+        storage: false
+        enums: []
+
+  - name: UFLASH_XADR
+    description: Flash X Address Register
+    address: '0x14'
+    bitfields:
+      - name: XADR
+        description: Flash X address (row / page select)
+        reset: 0
+        width: 16
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: UFLASH_YADR
+    description: Flash Y Address Register
+    address: '0x18'
+    bitfields:
+      - name: YADR
+        description: Flash Y address (column / word select)
+        reset: 0
+        width: 8
+        lsb: 0
+        access: rw
+        hardware: o
+
+  - name: UFLASH_DOR
+    description: Flash data out Register
+    address: '0x1C'
+    bitfields:
+      - name: DO
+        description: 32BIT READ DATA
+        reset: 0
+        width: 32
+        lsb: 0
+        access: ro
+        hardware: i
+
+  - name: UFLASH_DIR
+    description: Flash data in Register
+    address: '0x20'
+    bitfields:
+      - name: DI
+        description: 32BIT PROGRAM DATA
+        reset: 0
+        width: 32
+        lsb: 0
+        access: wo
+        hardware: o
