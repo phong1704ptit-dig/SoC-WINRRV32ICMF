@@ -4,6 +4,7 @@ Dự án SoC tập trung vào tối ưu hiệu suất mục tiêu để chạy m
 - Tập lệnh mở rộng M: Bổ xung thêm các lệnh nhân, chia, chia dư. Trong dự án này ALU sử dụng thuật toán radix-4 cho cả phép nhân và phép chia. Nhân sẽ mất 9 chu kì và chia mất 20 chu kì.
 - Tập lệnh mở rộng C: Bổ xung thêm các lệnh 16 bit làm giảm độ dài mã chương trình tức giảm bộ nhớ lệnh cần sử dụng.
 - Tập lệnh mở rộng F: Bổ xung thêm các lệnh thao tác với số thực độ chính xác đơn. Tập này được bộ đồng xử lý FPU thực thi theo chuẩn IEEE754.
+  
 SoC đầy đủ chức năng với bộ nhớ lệnh 190KB, bộ nhớ dữ liệu 120KB, Flash 10KB có thể hoạt động ở mức tần số 70MHz. Đối với các bộ nhớ đều 2KB hoạt động ở mức tần số 94MHz. Có thể thấy giới hạn rất lớn khi sử dụng nhiều block RAM và khó routing khi sử dụng nhiều tài nguyên. Đánh giá bằng báo cáo từ vivado với chiến lược tối ưu hiệu suất và FPGA CX7Z020clg400.
 ## 1. CPU 
 - Được thiết kế tối ưu hiệu suất với thông lượng của tất cả các lệnh đều là 1 lệnh mỗi chu kì ngoại trừ lệnh JALR với thông lượng 0.25 lệnh mỗi chu kì. CPU áp dụng kĩ thuật đường ống 5 chu kì cơ bản IF-ID-EX-MEM-WB.
