@@ -23,7 +23,8 @@ Thuật toán nhân sử dụng là Radix4 song song theo kiểu số thực, th
 - Ngoại vi quản lý ngắt ngoài PLIC, hỗ trợ 62 ngắt các loại đến từ ngoại vi. Có khả năng cấu hình mức ưu tiên ngắt cho từng ngắt, cấu hình cho phép ngắt cho từng ngắt, cấu hình ngưỡng ngắt. Hỗ trợ đọc trạng thái của bộ quản lý ngắt như ngắt nào đang chờ, ngắt nào đang được thực hiện. Thời gian tìm ra ngắt cao nhất và báo cáo cho CPU là 32 chu kì.
 - Ngoại vi SPI hỗ trợ lựa chọn tần số SCLK là 100KHz, 200KHz, 500KHz, 800KHz, 1MHz, 2MHz, 4MHz, 5MHz. Có thể lựa chọn frame truyền lên tới 64bit, lựa chọn CPOL, CPHA, truyền MSB hay không. Có chức năng tự động chọn slave với ID của slave lưu trong thanh ghi cấu hình. Hỗ trợ cả chế độ master lẫn slave. Có 2 đường ngắt báo nhận được dữ liệu và đã truyền xong dữ liệu. Có thanh ghi trạng thái báo bận, RXNE...
 ## 4. Mô hình hệ thống SoC
-<p align="center">
-  <img src="Image/MohinhSoC.png" width="600" title="Sơ đồ kiến trúc SoC">
-</p>
+<figure align="center">
+  <img src="Image/MohinhSoC.png" alt="SoC Architecture" width="600">
+  <figcaption align="center"><i>Hình 1: Sơ đồ kiến trúc tổng quan của SoC WINRRV32ICMF</i></figcaption>
+</figure>
 
