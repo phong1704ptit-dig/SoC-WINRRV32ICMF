@@ -13,12 +13,14 @@ SoC đầy đủ chức năng với bộ nhớ lệnh 190KB, bộ nhớ dữ li�
   <br>
   <i>Hình 1: Nguyên lý dự đoán của bộ dự đoán rẽ nhánh</i>
 </p>
+
 - Hỗ trợ bộ quản lý ngắt giúp chương trình điều khiển được ngắt của hệ thống bao gồm ngắt ngoài, ngoại lệ của từng chế độ. Tuy nhiên bộ xử lý chỉ hỗ trợ chế độ máy tức là chế độ có quyền cao nhất.
 <p align="center">
   <img src="Image/DuongongCPU.png" alt="SoC Architecture" width="500">
   <br>
   <i>Hình 2: Đường ống CPU</i>
 </p>
+
 - Hỗ trợ quản lý phụ thuộc dữ liệu với chức năng xử lý tất cả các loại phụ thuộc dữ liệu mà không phải trả giá ngoại trừ lệnh JALR sẽ được chèn thêm 3 lệnh nop. Xung đột tài nguyên xảy ra khi truy cập cả lệnh và dữ liệu sẽ được xử lý bằng kiến trúc máy tính Harvard.
 - Khối số học và logic xử lý các lệnh nhân chi số nguyên bằng thuật toán Radix-4, riêng với nhân Radix-4 sẽ được thực thi song song làm tăng tài nguyên và diện tích sử dụng tuy nhiên sẽ đẩy nhanh quá trình tính toán.
 - Hỗ trợ 4 được bus riêng bao gồm Ibus, Dbus sử dụng localbus; Bus ngoại vi sử dụng AHB và APB; Bus FPU-CPU sử dụng bus đăc biệt được thiết kế riêng phù hợp yêu cầu trao đổi giữa CPU và FPU.
@@ -30,6 +32,7 @@ Thuật toán nhân sử dụng là Radix4 song song theo kiểu số thực, th
   <br>
   <i>Hình 3: Nguyên tắc xử lý lệnh của FPU</i>
 </p>
+
 ## 3. Ngoại vi
 - Hỗ trợ ngoại vi I2C, SPI, UART, TIMER, GPIO và PLIC.
 - UART Hỗ trợ chức năng lựa chọn baud rate 600bps, 1200bps, 2400bps, 4800bps, 9600bps, 14400bps, 19200bps, 38400bps, 56000bps, 57600bps và 115200bps. Chỉ hỗ trợ báo cáo trạng thái bận và RXNE. Có 2 đường ngắt nối tới PLIC là ngắt báo đã truyền xong dữ liệu và ngắt báo nhận được dữ liệu.
@@ -44,19 +47,22 @@ Thuật toán nhân sử dụng là Radix4 song song theo kiểu số thực, th
   <br>
   <i>Hình 4: Sơ đồ kiến trúc tổng quan của SoC WINRRV32ICMF</i>
 </p>
+
 <p align="center">
   <img src="Image/phanvungbonho.png" alt="SoC Architecture" width="600">
   <br>
   <i>Hình 5: Phân vùng bộ nhớ</i>
 </p>
+
 ## 5. Ví dụ hệ thống phân loại
 - Bao bồm firmware có sẵn makefile, mã chương trình C/C++, thư viện thao các với ngoại vi, etc.
 - Mã nguồn verilog mô tả tất cả ngoại vi, CPU, FPU, ALU, etc.
 <p align="center">
   <img src="Image/MohinhPhanloai.png" alt="SoC Architecture" width="500">
   <br>
-  <i>Hình 1: Mô hình phân loại sử dụng mô hình SoC</i>
+  <i>Hình 6: Mô hình phân loại sử dụng mô hình SoC</i>
 </p>
+
 - Mô hình phân loại nhận pixel ảnh từ ESP32CAM bằng UART + ngắt. Đọc cảm biến khoảng cách HCSR-04 bằng GPIO và systick, điều khiển băng truyền, led bằng GPIO. Điều khiển Servo bằng chức năng PWM của TIMER, hiển thị kết quả phân loại lên LCD bằng I2C.
 ## 6. Tài nguyên sử dụng của hệ thống SoC
 - 12K logic unit, 7KFF với 2KB bộ nhớ lệnh và dữ liệu. 17K logic unit, 9KFF với đầy đủ dung lượng bộ nhớ - 187KB bộ nhớ lệnh, 120KB bộ nhớ dữ liệu, 10KB FLASH.
