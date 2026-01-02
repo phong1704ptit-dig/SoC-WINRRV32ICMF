@@ -7,13 +7,28 @@ Dự án SoC tập trung vào tối ưu hiệu suất mục tiêu để chạy m
 ## 1. CPU 
 - Được thiết kế tối ưu hiệu suất với thông lượng của tất cả các lệnh đều là 1 lệnh mỗi chu kì ngoại trừ lệnh JALR với thông lượng 0.25 lệnh mỗi chu kì. CPU áp dụng kĩ thuật đường ống 5 chu kì cơ bản IF-ID-EX-MEM-WB.
 - Hỗ trợ dự đoán rẽ nhánh với bộ dự đoán rẽ nhánh 2 bit kết hợp với bảng lịch sử rẽ nhánh. Bộ dự đoán rẽ nhánh hoạt động hiệu quả đối với chương trình C/C++ mang tính lặp lại như hàm while, for, etc tuy nhiên hoạt động kém hiệu quả đối với loại chương trình mang tính lúc nhảy lúc không như zich zac. Đối với mô hình AI trong dự án tỷ lệ dữ đoán rẽ nhánh đúng rơi vào khoảng từ 98% tới 99% do chương trình AI có tính lặp lại nhiều lần cho mỗi pixel ảnh. Dự đoán rẽ nhánh sai sẽ phải trả giá bằng 2 chu kì tần số.
+<p align="center">
+  <img src="Image/Nguyenlydudoan.png" alt="SoC Architecture" width="800">
+  <br>
+  <i>Hình 1: Nguyên lý dự đoán của bộ dự đoán rẽ nhánh</i>
+</p>
 - Hỗ trợ bộ quản lý ngắt giúp chương trình điều khiển được ngắt của hệ thống bao gồm ngắt ngoài, ngoại lệ của từng chế độ. Tuy nhiên bộ xử lý chỉ hỗ trợ chế độ máy tức là chế độ có quyền cao nhất.
+<p align="center">
+  <img src="Image/DuongongCPU.png" alt="SoC Architecture" width="800">
+  <br>
+  <i>Hình 2: Đường ống CPU</i>
+</p>
 - Hỗ trợ quản lý phụ thuộc dữ liệu với chức năng xử lý tất cả các loại phụ thuộc dữ liệu mà không phải trả giá ngoại trừ lệnh JALR sẽ được chèn thêm 3 lệnh nop. Xung đột tài nguyên xảy ra khi truy cập cả lệnh và dữ liệu sẽ được xử lý bằng kiến trúc máy tính Harvard.
 - Khối số học và logic xử lý các lệnh nhân chi số nguyên bằng thuật toán Radix-4, riêng với nhân Radix-4 sẽ được thực thi song song làm tăng tài nguyên và diện tích sử dụng tuy nhiên sẽ đẩy nhanh quá trình tính toán.
 - Hỗ trợ 4 được bus riêng bao gồm Ibus, Dbus sử dụng localbus; Bus ngoại vi sử dụng AHB và APB; Bus FPU-CPU sử dụng bus đăc biệt được thiết kế riêng phù hợp yêu cầu trao đổi giữa CPU và FPU.
 ## 2. FPU
 - Đươc thiết kế với 3 chế độ hoạt động bao gồm ModePipeline, ModeFSM và ModeCom. ModeCom thực thi các lệnh cần trao đổi dữ liệu với CPU thực thi ngay lật tức theo kiểu logic tổ hợp, ModeFSM thự thi các lệnh như FDIV, FSQRT là các lệnh cần thời gian tính toán lên tới 20 chu kì mỗi lệnh vì vậy không hợp ghép vào đường ống mà sẽ được thực thi bằng máy trạng thái. ModePipeline thực thi hầu hết các lệnh tính toán của FPU áp dụng kĩ thuật đường ống 7 chu kì Unpack-Align-Ope1-Ope2-Nor1-Nor2-R&WB.
 Thuật toán nhân sử dụng là Radix4 song song theo kiểu số thực, thuật toán chia sử dụng là Newton-Raphson, thuật toán căn bậc 2 sử dụng là dự đoán digit-by-digit theo kiểu số thực, etc. Tất cả các lệnh của FPU đề có độ chính xác và tuân theo tiêu chuẩn IEEE754.
+<p align="center">
+  <img src="Image/ModeFPU.png" alt="SoC Architecture" width="800">
+  <br>
+  <i>Hình 3: Nguyên tắc xử lý lệnh của FPU</i>
+</p>
 ## 3. Ngoại vi
 - Hỗ trợ ngoại vi I2C, SPI, UART, TIMER, GPIO và PLIC.
 - UART Hỗ trợ chức năng lựa chọn baud rate 600bps, 1200bps, 2400bps, 4800bps, 9600bps, 14400bps, 19200bps, 38400bps, 56000bps, 57600bps và 115200bps. Chỉ hỗ trợ báo cáo trạng thái bận và RXNE. Có 2 đường ngắt nối tới PLIC là ngắt báo đã truyền xong dữ liệu và ngắt báo nhận được dữ liệu.
@@ -26,6 +41,20 @@ Thuật toán nhân sử dụng là Radix4 song song theo kiểu số thực, th
 <p align="center">
   <img src="Image/MohinhSoC.png" alt="SoC Architecture" width="800">
   <br>
-  <i>Hình 1: Sơ đồ kiến trúc tổng quan của SoC WINRRV32ICMF</i>
+  <i>Hình 4: Sơ đồ kiến trúc tổng quan của SoC WINRRV32ICMF</i>
 </p>
+<p align="center">
+  <img src="Image/phanvungbonho.png" alt="SoC Architecture" width="800">
+  <br>
+  <i>Hình 5: Phân vùng bộ nhớ</i>
+</p>
+## 5. Ví dụ hệ thống phân loại
+- Bao bồm firmware có sẵn makefile, mã chương trình C/C++, thư viện thao các với ngoại vi, etc.
+- Mã nguồn verilog mô tả tất cả ngoại vi, CPU, FPU, ALU, etc.
+<p align="center">
+  <img src="Image/MohinhPhanloai.png" alt="SoC Architecture" width="800">
+  <br>
+  <i>Hình 1: Mô hình phân loại sử dụng mô hình SoC</i>
+</p>
+- Mô hình phân loại nhận pixel ảnh từ ESP32CAM bằng UART + ngắt. Đọc cảm biến khoảng cách HCSR-04 bằng GPIO và systick, điều khiển băng truyền, led bằng GPIO. Điều khiển Servo bằng chức năng PWM của TIMER, hiển thị kết quả phân loại lên LCD bằng I2C.
 
