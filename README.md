@@ -5,7 +5,7 @@ Dự án SoC tập trung vào tối ưu hiệu suất mục tiêu để chạy m
 - Tập lệnh mở rộng C: Bổ xung thêm các lệnh 16 bit làm giảm độ dài mã chương trình tức giảm bộ nhớ lệnh cần sử dụng.
 - Tập lệnh mở rộng F: Bổ xung thêm các lệnh thao tác với số thực độ chính xác đơn. Tập này được bộ đồng xử lý FPU thực thi theo chuẩn IEEE754.
   
-SoC đầy đủ chức năng với bộ nhớ lệnh 190KB, bộ nhớ dữ liệu 120KB, Flash 10KB có thể hoạt động ở mức tần số 70MHz. Đối với các bộ nhớ đều 2KB hoạt động ở mức tần số 87MHz. Có thể thấy giới hạn rất lớn khi sử dụng nhiều block RAM và khó routing khi sử dụng nhiều tài nguyên. Đánh giá bằng báo cáo từ vivado với chiến lược tối ưu hiệu suất và FPGA CX7Z020clg400.
+SoC đầy đủ chức năng với bộ nhớ lệnh 190KB, bộ nhớ dữ liệu 120KB, Flash 10KB có thể hoạt động ở mức tần số 70MHz. Đối với các bộ nhớ đều 2KB hoạt động ở mức tần số 84MHz. Có thể thấy giới hạn rất lớn khi sử dụng nhiều block RAM và khó routing khi sử dụng nhiều tài nguyên. Đánh giá bằng báo cáo từ vivado với chiến lược tối ưu hiệu suất và FPGA CX7Z020clg400.
 
 Hệ thống SoC hoàn chỉnh sử dụng 12K logic unit, 7KFF với 2KB bộ nhớ lệnh và dữ liệu. 17K logic unit, 9KFF với đầy đủ dung lượng bộ nhớ - 187KB bộ nhớ lệnh, 120KB bộ nhớ dữ liệu, 10KB FLASH. Chủ yếu tốn tài nguyên ở FPU với 9k5 logic unit và 3k8FF khi đầy đủ dung lượng các bộ nhớ. Đánh giá báo cáo từ vivado với chiến lược tối ưu hiệu suất và FPGA CX7Z020clg400.
 ## 1. CPU 
