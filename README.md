@@ -5,7 +5,7 @@ Dự án SoC tập trung vào tối ưu hiệu suất mục tiêu để chạy m
 - Tập lệnh mở rộng C: Bổ xung thêm các lệnh 16 bit làm giảm độ dài mã chương trình tức giảm bộ nhớ lệnh cần sử dụng.
 - Tập lệnh mở rộng F: Bổ xung thêm các lệnh thao tác với số thực độ chính xác đơn. Tập này được bộ đồng xử lý FPU thực thi theo chuẩn IEEE754.
   
-SoC đầy đủ chức năng với bộ nhớ lệnh 190KB, bộ nhớ dữ liệu 120KB, Flash 10KB có thể hoạt động ở mức tần số 70MHz. Đối với các bộ nhớ đều 2KB hoạt động ở mức tần số 94MHz. Có thể thấy giới hạn rất lớn khi sử dụng nhiều block RAM và khó routing khi sử dụng nhiều tài nguyên. Đánh giá bằng báo cáo từ vivado với chiến lược tối ưu hiệu suất và FPGA CX7Z020clg400.
+SoC đầy đủ chức năng với bộ nhớ lệnh 190KB, bộ nhớ dữ liệu 120KB, Flash 10KB có thể hoạt động ở mức tần số 70MHz. Đối với các bộ nhớ đều 2KB hoạt động ở mức tần số 84MHz. Có thể thấy giới hạn rất lớn khi sử dụng nhiều block RAM và khó routing khi sử dụng nhiều tài nguyên. Đánh giá bằng báo cáo từ vivado với chiến lược tối ưu hiệu suất và FPGA CX7Z020clg400.
 
 Hệ thống SoC hoàn chỉnh sử dụng 12K logic unit, 7KFF với 2KB bộ nhớ lệnh và dữ liệu. 17K logic unit, 9KFF với đầy đủ dung lượng bộ nhớ - 187KB bộ nhớ lệnh, 120KB bộ nhớ dữ liệu, 10KB FLASH. Chủ yếu tốn tài nguyên ở FPU với 9k5 logic unit và 3k8FF khi đầy đủ dung lượng các bộ nhớ. Đánh giá báo cáo từ vivado với chiến lược tối ưu hiệu suất và FPGA CX7Z020clg400.
 ## 1. CPU 
@@ -28,8 +28,8 @@ Hệ thống SoC hoàn chỉnh sử dụng 12K logic unit, 7KFF với 2KB bộ n
 - Khối số học và logic xử lý các lệnh nhân chi số nguyên bằng thuật toán Radix-4, riêng với nhân Radix-4 sẽ được thực thi song song làm tăng tài nguyên và diện tích sử dụng tuy nhiên sẽ đẩy nhanh quá trình tính toán.
 - Hỗ trợ 4 được bus riêng bao gồm Ibus, Dbus sử dụng localbus; Bus ngoại vi sử dụng AHB và APB; Bus FPU-CPU sử dụng bus đăc biệt được thiết kế riêng phù hợp yêu cầu trao đổi giữa CPU và FPU.
 ## 2. FPU
-- Đươc thiết kế với 3 chế độ hoạt động bao gồm ModePipeline, ModeFSM và ModeCom. ModeCom thực thi các lệnh cần trao đổi dữ liệu với CPU thực thi ngay lật tức theo kiểu logic tổ hợp, ModeFSM thự thi các lệnh như FDIV, FSQRT là các lệnh cần thời gian tính toán lên tới 20 chu kì mỗi lệnh vì vậy không hợp ghép vào đường ống mà sẽ được thực thi bằng máy trạng thái. ModePipeline thực thi hầu hết các lệnh tính toán của FPU áp dụng kĩ thuật đường ống 7 chu kì Unpack-Align-Ope1-Ope2-Nor1-Nor2-R&WB.
-Thuật toán nhân sử dụng là Radix4 song song theo kiểu số thực, thuật toán chia sử dụng là Newton-Raphson, thuật toán căn bậc 2 sử dụng là dự đoán digit-by-digit theo kiểu số thực, etc. Tất cả các lệnh của FPU đề có độ chính xác và tuân theo tiêu chuẩn IEEE754.
+- Đươc thiết kế với 3 chế độ hoạt động bao gồm ModePipeline, ModeFSM và ModeCom. ModeCom thực thi các lệnh cần trao đổi dữ liệu với CPU thực thi ngay lật tức theo kiểu logic tổ hợp, ModeFSM thự thi các lệnh như FDIV, FSQRT là các lệnh cần thời gian tính toán lên tới 20 chu kì mỗi lệnh vì vậy không hợp ghép vào đường ống mà sẽ được thực thi bằng máy trạng thái. ModePipeline thực thi hầu hết các lệnh tính toán của FPU áp dụng kĩ thuật đường ống 7 chu kì Unpack-Align-Ope1-Ope2-Nor1-Nor2-R&WB. Ở trường hợp lý tưởng FPU hoạt động ở ModePipeline, không có phụ thuộc dữ liệu, các lệnh thực thi đều là thuộc dạng tích lũy FMA(Fused Multiply-Add) thông lượng là 1FMA/cycle tương đương 2 phép tính số thực mỗi chu kì.
+- Thuật toán nhân sử dụng là Radix4 song song theo kiểu số thực, thuật toán chia sử dụng là Newton-Raphson, thuật toán căn bậc 2 sử dụng là dự đoán digit-by-digit theo kiểu số thực, etc. Tất cả các lệnh của FPU đề có độ chính xác và tuân theo tiêu chuẩn IEEE754.
 <p align="center">
   <img src="Image/ModeFPU.png" alt="SoC Architecture" width="600">
   <br>
